@@ -1,0 +1,25 @@
+body { margin: 0; }
+body>header { text-align: center; }
+body>header>nav>ul {
+    margin: 0;
+    padding: 0;
+    background-color: DimGray;
+    list-style-type: none;
+}
+body>header>nav>ul>li:hover { background-color: MidnightBlue; }
+body>header>nav>ul>li:active { background-color: Blue; }
+body>header>nav>ul>li { display: inline-block; }
+body>header>nav>ul>li>a {
+    display: block;
+    padding: 1em;
+    color: White;
+    text-decoration: none;
+}
+body>main { padding: 1em; }
+body>div {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1em;
+    width: 33.3%;
+    vertical-align: top;
+}
