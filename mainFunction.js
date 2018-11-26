@@ -28,6 +28,9 @@ if (theme == null){
 	document.body.style.color = fg_color;
 	document.body.style.backgroundColor = bg_color;
 	document.getElementById("link").style.color = link_color;
+	document.getElementById("link2").style.color = link_color;
+	document.getElementById("link3").style.color = link_color;
+	document.getElementById("link4").style.color = link_color;
 	localStorage.setItem('theme', theme);
 
 }
