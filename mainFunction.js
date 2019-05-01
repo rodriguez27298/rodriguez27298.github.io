@@ -33,7 +33,7 @@ if (theme == null){
 	document.getElementById("link4").style.color = link_color;
 	localStorage.setItem('theme', theme);
 
-}
+} 
 
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
