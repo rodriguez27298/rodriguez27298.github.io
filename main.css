@@ -51,7 +51,7 @@ body>div {
     z-index: 1;
 }
 
-.show {display:block;}
+
 
 .dropdown-content input {
     color: black;
@@ -59,3 +59,5 @@ body>div {
     text-decoration: none;
     display: block;
 }
+
+.show {display:block;}
